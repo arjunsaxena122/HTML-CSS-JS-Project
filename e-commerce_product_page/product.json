@@ -1,0 +1,98 @@
+[
+  {
+    "product_id": "P001",
+    "name": "Wireless Bluetooth Earbuds X10",
+    "description": "Compact design, 30 hours battery backup, noise-canceling mic, and stereo sound.",
+    "price": 1999.00,
+    "currency": "INR",
+    "image": "./public/images/pi-1.webp"
+  },
+  {
+    "product_id": "P002",
+    "name": "Stainless Steel Water Bottle 1L",
+    "description": "Double-wall insulated steel, keeps hot/cold for hours, leak-proof cap.",
+    "price": 799.00,
+    "currency": "INR",
+    "image": "./public/images/pi-2.webp"
+  },
+  {
+    "product_id": "P003",
+    "name": "Urban Slim Laptop Backpack",
+    "description": "Fits up to 15.6 inch laptops, water-repellent fabric, multiple pockets.",
+    "price": 1499.00,
+    "currency": "INR",
+    "image": "./public/images/pi-3.jpg"
+  },
+  {
+    "product_id": "P004",
+    "name": "Smartwatch Active S3",
+    "description": "Heart rate monitor, sleep tracking, 7-day battery, IP68 water resistant.",
+    "price": 2999.00,
+    "currency": "INR",
+    "image": "./public/images/pi-4.jpg"
+  },
+  {
+    "product_id": "P005",
+    "name": "Ceramic Non-stick Fry Pan 26cm",
+    "description": "Toxin-free surface, even heat distribution, easy to clean.",
+    "price": 599.00,
+    "currency": "INR",
+    "image": "./public/images/pi-5.jpg"
+  },
+  {
+    "product_id": "P006",
+    "name": "LED Desk Lamp with USB",
+    "description": "Adjustable brightness, touch control, built-in USB charging port.",
+    "price": 699.00,
+    "currency": "INR",
+    "image": "./public/images/pi-6.jpg"
+  },
+  {
+    "product_id": "P007",
+    "name": "Gaming Mechanical Keyboard K50",
+    "description": "RGB backlight, blue switches, anti-ghosting, ergonomic design.",
+    "price": 2499.00,
+    "currency": "INR",
+    "image": "./public/images/pi-7.webp"
+  },
+  {
+    "product_id": "P008",
+    "name": "Noise Cancelling Over-Ear Headphones",
+    "description": "Active noise cancellation, 40mm drivers, 20-hour playtime.",
+    "price": 3499.00,
+    "currency": "INR",
+    "image": "./public/images/pi-8.jpg"
+  },
+  {
+    "product_id": "P009",
+    "name": "4K Ultra HD Smart TV 43-inch",
+    "description": "Android OS, HDR10 support, built-in Chromecast and Google Assistant.",
+    "price": 28999.00,
+    "currency": "INR",
+    "image": "./public/images/pi-9.webp"
+  },
+  {
+    "product_id": "P010",
+    "name": "Portable Power Bank 20000mAh",
+    "description": "Dual USB output, fast charging, LED battery indicator.",
+    "price": 1299.00,
+    "currency": "INR",
+    "image": "./public/images/pi-10.webp"
+  },
+  {
+    "product_id": "P011",
+    "name": "Wireless Ergonomic Mouse M7",
+    "description": "Smooth optical sensor, ergonomic design, long battery life.",
+    "price": 899.00,
+    "currency": "INR",
+    "image": "./public/images/pi-11.webp"
+  },
+  {
+    "product_id": "P012",
+    "name": "Portable Mini Projector HD",
+    "description": "Supports 1080p, built-in speaker, compact and travel-friendly.",
+    "price": 4999.00,
+    "currency": "INR",
+    "image": "./public/images/pi-12.jpg"
+  }
+]
