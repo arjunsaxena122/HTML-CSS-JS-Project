@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 50px 20px;
+}
+
+.container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 480px;
+    border-radius: 14px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+    transition: all 0.3s ease;
+}
+
+.heading h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+#task-box {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+#task-input-box {
+    flex: 1;
+    padding: 14px 16px;
+    border: 1.8px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s all;
+}
+
+#task-input-box:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 10px rgba(0,123,255,0.2);
+    outline: none;
+}
+
+#task-box button {
+    padding: 14px 24px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#task-box button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    background-color: #fafafa;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.list-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+}
+
+.list-item span {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+}
+
+.list-item span.task-text {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.list-item button {
+    margin-left: 10px;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.list-item button:first-child {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.list-item button:first-child:hover {
+    background-color: #e0a800;
+}
+
+.list-item button:last-child {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.list-item button:last-child:hover {
+    background-color: #c82333;
+}
+
+.list-item input[type="checkbox"] {
+    margin-left: 15px;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    #task-box {
+        flex-direction: column;
+    }
+    #task-box button {
+        width: 100%;
+    }
+}
