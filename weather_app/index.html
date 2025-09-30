@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form-weather">
+        <label for="weather-city">Enter your city name</label>
+        <input
+          type="text"
+          name="city"
+          id="weather-city"
+          placeholder="Aligarh"
+        />
+      </form>
+
+      <div class="weather-display">
+        <div class="main-weather">
+          <div id="weather-icon">☀️</div>
+          <div id="weather">Clear</div>
+          <div id="temp">25°C</div>
+        </div>
+
+        <div class="details">
+          <div class="detail-card">
+            <h4>Wind</h4>
+            <p>Speed: <span id="speed">5 m/s</span></p>
+            <p>Deg: <span id="degree">100°</span></p>
+            <p>Gust: <span id="gust">7 m/s</span></p>
+          </div>
+          <div class="detail-card">
+            <h4>Atmosphere</h4>
+            <p>Feels Like: <span id="feels_like">27°C</span></p>
+            <p>Pressure: <span id="pressure">1012 hPa</span></p>
+            <p>Humidity: <span id="humidity">80%</span></p>
+            <p>Sea Level: <span id="sea_level">1020 hPa</span></p>
+            <p>Ground Level: <span id="ground_level">1005 hPa</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>

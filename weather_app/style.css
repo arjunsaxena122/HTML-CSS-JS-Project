@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 25px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+#form-weather {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+#form-weather label {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+#weather-city {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  transition: box-shadow 0.3s ease;
+}
+
+#weather-city:focus {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+.weather-display {
+  text-align: center;
+}
+
+.main-weather {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#weather-icon {
+  font-size: 3rem;
+}
+
+#weather {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+#temp {
+  font-size: 2rem;
+  margin-top: 5px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detail-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.detail-card:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.detail-card h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 5px;
+}
+
+.detail-card p {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.detail-card p span {
+  font-weight: bold;
+  color: #ffd700;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 90%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  #weather-icon {
+    font-size: 2.5rem;
+  }
+
+  #weather {
+    font-size: 1.2rem;
+  }
+
+  #temp {
+    font-size: 1.5rem;
+  }
+}
