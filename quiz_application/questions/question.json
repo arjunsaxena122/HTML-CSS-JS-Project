@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of India?",
+    "options": ["Mumbai", "Delhi", "Kolkata", "Chennai"],
+    "answer": "Delhi"
+  },
+  {
+    "id": 2,
+    "question": "Which language is used for web development?",
+    "options": ["Python", "C++", "JavaScript", "Java"],
+    "answer": "JavaScript"
+  },
+  {
+    "id": 3,
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "answer": "Mars"
+  },
+  {
+    "id": 4,
+    "question": "What is 5 + 7?",
+    "options": ["10", "11", "12", "13"],
+    "answer": "12"
+  },
+  {
+    "id": 5,
+    "question": "Which animal is known as the King of the Jungle?",
+    "options": ["Tiger", "Elephant", "Lion", "Leopard"],
+    "answer": "Lion"
+  }
+]
